@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { compareTranscripts } from '../services/api';
+import { compareTranscripts } from '../api';
 import { TrendingUp, TrendingDown, Minus, AlertTriangle, CheckCircle } from 'lucide-react';
 
 const card = {
