@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { analyzeTranscript, downloadBrief } from './services/api';
-import SentimentGauge from '../../components/SentimentGauge';
-import KeywordChart from '../../components/KeywordChart';
-import ComparePanel from '../../components/ComparePanel';
+import SentimentGauge from './components/SentimentGauge';
+import KeywordChart from './components/KeywordChart';
+import ComparePanel from './components/ComparePanel';
 import { FileText, TrendingUp, AlertTriangle, GitCompare, Download, Loader, ChevronRight } from 'lucide-react';
 
 // ── Design tokens ──────────────────────────────────────────────────────────
